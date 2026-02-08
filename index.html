@@ -693,6 +693,24 @@
         }
 
         @media (max-width: 768px) {
+            nav {
+                padding: 0.8rem 1rem;
+            }
+
+            nav .logo {
+                font-size: 1.1rem;
+                min-width: auto;
+            }
+
+            nav ul {
+                gap: 0.4rem;
+            }
+
+            nav a {
+                font-size: 0.8rem;
+                padding: 0.3rem 0.35rem;
+            }
+
             .profile-container {
                 width: 160px;
                 height: 160px;
@@ -722,25 +740,12 @@
                 min-height: 50vh;
             }
 
-            nav ul {
-                gap: 0.5rem;
-            }
-
-            nav a {
-                font-size: 0.85rem;
-                padding: 0.4rem 0.5rem;
-            }
-
             .about-content {
                 grid-template-columns: 1fr;
             }
 
             .cta-buttons {
                 flex-direction: column;
-                width: 100%;
-            }
-
-            .btn {
                 width: 100%;
             }
 
@@ -769,21 +774,34 @@
         }
 
         @media (max-width: 480px) {
+            nav {
+                padding: 0.75rem 1rem;
+            }
+
+            nav .container {
+                gap: 0.5rem;
+            }
+
+            nav .logo {
+                font-size: 1rem;
+                min-width: auto;
+            }
+
+            nav ul {
+                gap: 0.25rem;
+            }
+
+            nav a {
+                font-size: 0.65rem;
+                padding: 0.3rem 0.3rem;
+            }
+
             .hero h1 {
                 font-size: 1.5rem;
             }
 
             .hero p {
                 font-size: 0.85rem;
-            }
-
-            nav .logo {
-                font-size: 1.2rem;
-            }
-
-            nav a {
-                font-size: 0.75rem;
-                padding: 0.3rem 0.4rem;
             }
 
             section h2 {
